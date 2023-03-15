@@ -10,10 +10,12 @@
         <nav>
             <img src="images/logo.png" class="logo">
             <div>
-                <button class="language-button">
-                    English <img src="images/down-icon.png">
-                </button>
-                <button>
+                <select class="language-btn">
+                    <option value="">English</option>
+                    <option value="">हिंदी</option>
+
+                </select>
+                <button class="signin-btn">
                     Sign In
                 </button>
             </div>
@@ -22,10 +24,18 @@
             <h1>Unlimited movies, TV shows and more.</h1>
             <h3>Watch anywhere. Cancel anytime.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <form class="email-input">
-                <input type="email" placeholder="Email Address" required>
-                <button type="submit">Get Started</button>
-            </form>
+            <div class="main-form">
+                <div class="main-form-email">
+                    <form class="email-input">
+                        <input type="email" placeholder="Email Address" required>
+                    </form>
+                </div>
+                <div class="main-form-btn">
+                    <button type="submit">Get Started</button>
+                </div>
+
+            </div>
+           
         </div>
     </div>
 
@@ -75,6 +85,9 @@
             
         </div>
     </div>
+<div class="questions">
+
+</div>    
     
 </body>
 </html>
