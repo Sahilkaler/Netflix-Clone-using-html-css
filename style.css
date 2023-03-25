@@ -182,3 +182,23 @@ nav select {
     align-items: center;
     flex-direction: row;
 }
+
+select option{
+    color:black;
+
+}
+
+/*FAQ*/
+
+.questions{
+    padding:10px 12%;
+    text-align: center;
+    font-size:18px;
+}
+
+.questions h2{
+    font-weight:900;
+    font-size:48px;
+
+
+}
