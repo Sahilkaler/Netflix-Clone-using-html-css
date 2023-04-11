@@ -18,6 +18,7 @@ body {
     background-position: center;
     padding: 15px 9%;
     position: relative;
+    border-bottom: 8px solid rgb(35,35,35);
 }
 
 nav {
@@ -140,6 +141,7 @@ nav select {
 .nextpage {
     padding: 60px 12%;
     font-size: 24px;
+    
 }
 
 .row {
@@ -148,6 +150,7 @@ nav select {
     flex-wrap: wrap;
     align-items: center;
     padding: 50px 0;
+    
 }
 
 .text-col {
@@ -158,6 +161,7 @@ nav select {
 .img-sec {
     flex-basis: 50%;
     margin-bottom: 20px;
+    
 }
 
 .img-sec img {
@@ -191,6 +195,7 @@ select option{
 /*FAQ*/
 
 .questions{
+    border-top: 8px solid rgb(35,35,35);
     padding:10px 12%;
     text-align: center;
     font-size:18px;
@@ -254,4 +259,41 @@ input[type="radio"]{
 
 .accordion input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 8px solid rgb(35,35,35);
+    color:rgba(255, 255, 255, 0.7);
+
+}
+
+.footer h2{
+    font-size:18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.copyright{
+    font-size:14px ;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
