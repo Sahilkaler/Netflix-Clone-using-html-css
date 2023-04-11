@@ -65,7 +65,7 @@ nav select {
     display: inline-flex;
     border: 1px solid white;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 15px;
     padding: 7px 10px;
 }
 
@@ -272,6 +272,12 @@ input[type="radio"]{
     font-size:18px;
     font-weight: 400;
     margin-bottom: 30px;
+
+}
+
+.footer h2 .number{
+    text-decoration: underline;
+    color:rgba(255, 255, 255, 0.7);
 }
 
 .footer .col{
@@ -281,7 +287,7 @@ input[type="radio"]{
 }
 .footer .col a{
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
     margin-bottom: 10px;
@@ -296,4 +302,20 @@ input[type="radio"]{
     font-size:14px ;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.select{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.select .select-class select{ 
+    padding-left: 3em;
+    
+}
+
+.select .globe-icon{
+    position: relative;
+    left: 2em;
 }
